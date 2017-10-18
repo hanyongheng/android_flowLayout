@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hanyh.flowlayoutview.MainActivity">
+
+<com.hanyh.view.FlowLayout
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/tv_bg"
+        android:text="asfasfa"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello hello"
+        android:layout_margin="10dp"
+        android:background="@drawable/tv_bg"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello hello hello"
+        android:layout_margin="10dp"
+        android:background="@drawable/tv_bg"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello hello hello afaffafa"
+        android:background="@drawable/tv_bg"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="hello hello hello ffddgdfhftfhthfttfhfth"
+        android:background="@drawable/tv_bg"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="hello hello hello fhthfttfhfth"
+        android:background="@drawable/tv_bg"
+        />
+</com.hanyh.view.FlowLayout>
+
+</RelativeLayout>
